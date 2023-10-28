@@ -22,7 +22,7 @@ def data_profiling(input_path: str, file_separator: str, output_path: str) -> Pr
     file_path = Path(Path(__file__).parents[2], input_path)
 
     # read file
-    df = pd.read_csv(filepath_or_buffer=file_path, sep=file_separator, header=None, on_bad_lines='skip')
+    df = pd.read_csv(filepath_or_buffer=file_path, sep=file_separator, header=0, on_bad_lines='skip')
 
     # check data loss due to bad lines
     lines_at_start = count_lines_enumerate(file_path)
