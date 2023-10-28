@@ -153,7 +153,7 @@ cython_debug/
 
 # IDEs
 .idea
-.idea/*
+.idea/vcs.xml
 .idea_modules/
 .DS_Store
 .spyderproject
