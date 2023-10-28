@@ -164,3 +164,4 @@ cython_debug/
 
 # Exclude the data directory
 /data/
+/src/local_development/

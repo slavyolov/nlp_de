@@ -1,0 +1,6 @@
+{
+  "tables": {
+    "storage": "data",
+    "facebook": "data/facebook_dataset.csv"
+  }
+}
