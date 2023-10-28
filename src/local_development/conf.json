@@ -1,6 +1,26 @@
 {
+  "logging": {
+    "level": "INFO"
+  },
+  "run_profiling": true,
   "tables": {
     "storage": "data",
-    "facebook": "data/facebook_dataset.csv"
+    "input": {
+      "facebook": {
+        "path": "data/input/facebook_dataset.csv",
+        "sep": ","
+      },
+      "google": {
+        "path": "data/input/google_dataset.csv",
+        "sep": ","
+      },
+      "website": {
+        "path": "data/input/website_dataset.csv",
+        "sep": ";"
+      }
+    },
+    "intermediate": {
+      "base_path": "data/intermediate/"
+    }
   }
 }
